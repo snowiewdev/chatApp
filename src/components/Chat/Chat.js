@@ -45,7 +45,7 @@ const Chat = ({ location }) => {
     });
 
     //only when values inside [] changes, the useEffect will re-render
-  }, [location.search, connectionOptions]);
+  }, [location.search]);
 
   //handling messages
   useEffect(() => {
